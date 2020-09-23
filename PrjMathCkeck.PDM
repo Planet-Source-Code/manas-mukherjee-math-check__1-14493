@@ -1,0 +1,92 @@
+[Root]
+Most Recent Package=Standard Setup Package CheckMath
+
+
+[Package|Standard Setup Package CheckMath|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\VB Projects\Check Math\PackMathCheck
+
+[Package|Standard Setup Package CheckMath|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package CheckMath|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package CheckMath|Files Found]
+
+[Package|Standard Setup Package CheckMath|Files Released]
+
+[Package|Standard Setup Package CheckMath|Missing Dependency Information]
+
+[Package|Standard Setup Package CheckMath|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package CheckMath|Files Added]
+
+[Package|Standard Setup Package CheckMath|Files Removed]
+
+[Package|Standard Setup Package CheckMath|Files In Project]
+C:\VB Projects\Check Math\PrjMathCkeck.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSDATGRD.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package CheckMath|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package CheckMath|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package CheckMath|Install Locations]
+C:\VB Projects\Check Math\PrjMathCkeck.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package CheckMath|Configure Shared Files]
+Applicable=Yes
+C:\VB Projects\Check Math\PrjMathCkeck.exe=Yes
+
+[Package|Standard Setup Package CheckMath|Distribution]
+Type=single
+Size=
+Title=MathCkeck
+
+[Package|Standard Setup Package CheckMath|IconGroups]
+Group0=MathCkeck
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package CheckMath|MathCkeck]
+Icon1=PrjMathCkeck.exe
+Title1=MathCkeck
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package CheckMath|Package]
+PackageFolder=C:\VB Projects\Check Math\PackMathCheck
+ProjectFolder=C:\VB Projects\Check Math
+ServerSideCab=
+File1=C:\VB Projects\Check Math\PackMathCheck\setup.exe
+File2=C:\VB Projects\Check Math\PackMathCheck\Setup.Lst
+File3=C:\VB Projects\Check Math\PackMathCheck\PrjMathCkeck.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
